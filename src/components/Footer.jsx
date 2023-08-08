@@ -33,7 +33,7 @@ GOOGLE PLAY
 
      <div className='flex gap-3'>
         <div className=' h-[63px] overflow-y-scroll scroll-smooth'>
-        <p className=' xl:w-[470px] lg:w-[400px] md:w-[250px]  md:flex hidden  overflow-hidden flex-col text-justify  text-white text-xs font-light'>
+        <p className=' footertext xl:w-[470px] lg:w-[400px] md:w-[250px]  md:flex hidden  overflow-hidden flex-col text-justify text-[#B6B6B6] font-sans text-xs font-normal'>
         Brokerage services by Cash App Investing LLC, member FINRA / SIPC.
 See our BrokerCheck. Investing involves risk; you may lose money. Bitcoin trading offered by Cash App.
 Cash App Investing does not trade bitcoin and Cash App is not a member of FINRA or SIPC.

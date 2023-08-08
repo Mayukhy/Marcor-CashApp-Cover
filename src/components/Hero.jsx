@@ -24,11 +24,11 @@ export default function Hero() {
         <div style={{transform:'translate(-50%,-50%)',zIndex:99}} className=' w-1/4 mt-6 absolute md:ml-0 ml-[-20px] left-[50%] top-[50%]'>
         <img className=' min-w-[200px] md:mt-0 mt-4' src={iphone} alt="" />
         </div>
-        <div style={{transform:'translate(-50%,-50%)',zIndex:9}} className='absolute left-[50%] top-[50%] text-center'>
+        <div style={{transform:'translate(-50%,-50%)',zIndex:9}} className='absolute left-[50%] top-[50%] text-center cash'>
        <p style={{fontWeight:800}} className=' cursor-pointer font-bold  xl:text-[180px] lg:text-[150px] md:text-[100px] text-[90px] xl:mt-[-200px] lg:mt-[-125px] md:mt-[-80px] mt-[-50px] text-white animate-slideleft hover:scale-110 transition-all duration-200'>CASH</p>
         </div>
         <div style={{transform:'translate(-50%,-50%)',zIndex:999}} className='absolute left-[50%] top-[50%] text-center'>
-        <p  style={{zIndex:9,fontWeight:800}} className=' cursor-pointer font-bold xl:text-[180px] lg:text-[150px] md:text-[100px] text-[90px] md:mt-[130px] mt-[110px] text-white animate-slideright hover:scale-110 transition-all duration-200'>APP</p>
+        <p  style={{zIndex:9,fontWeight:800}} className='app cursor-pointer font-bold xl:text-[180px] lg:text-[150px] md:text-[100px] text-[90px] md:mt-[130px] mt-[110px] text-white animate-slideright hover:scale-110 transition-all duration-200'>APP</p>
         </div>
         
       

@@ -18,7 +18,7 @@ export default function Navber() {
 </svg>
           </div>
         {menu?.map((items,id)=>(
-        <div className=' hover:scale-110 cursor-pointer text-xl transition-all duration-200 hover:text-lime-200'>
+        <div className=' navitem hover:scale-110 cursor-pointer text-xl transition-all duration-200 hover:text-lime-200'>
             {items}
         </div>
     ))}
@@ -32,7 +32,7 @@ export default function Navber() {
 </svg>
 <div className=' flex lg:gap-8 md:gap-4 cursor-pointer mt-2'>
     {menu?.map((items,id)=>(
-        <div className=' lg:text-lg md:text-sm md:font-semibold lg:font-bold hover:scale-110 cursor-pointer transition-all duration-200 hover:text-lime-200'>
+        <div className=' navitem lg:text-lg md:text-sm md:font-semibold lg:font-bold hover:scale-110 cursor-pointer transition-all duration-200 hover:text-lime-200'>
             {items}
         </div>
     ))}
